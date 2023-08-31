@@ -10023,7 +10023,7 @@ var inherits = require('inherits'),
 
 /* */
 
-var request = require('request'),
+var request = require('requestretry'),
     canvas = require('./browser/canvas'),
     jsonp = require('./browser/jsonp');
 

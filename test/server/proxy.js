@@ -6,7 +6,7 @@
 var express = require('express'),
     http = require('http'),
     path = require('path'),
-    request = require('request');
+    request = require('requestretry');
 
 var app = express();
 
